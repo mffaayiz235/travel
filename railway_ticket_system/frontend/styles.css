@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+button {
+    margin-top: 10px;
+}

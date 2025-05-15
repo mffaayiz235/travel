@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Railway Ticket Reservation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to Railway Ticket Reservation System</h1>
+    <form action="../backend/reserve_ticket.php" method="post">
+        <label>Train Number:</label>
+        <input type="text" name="train_no" required>
+        <label>Passenger Name:</label>
+        <input type="text" name="passenger_name" required>
+        <button type="submit">Reserve Ticket</button>
+    </form>
+    <button onclick="checkAvailability()">Check Seat Availability</button>
+</body>
+</html>
